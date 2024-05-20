@@ -1,0 +1,69 @@
+<mxfile host="app.diagrams.net" modified="2024-05-20T09:28:50.263Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="D1bbOFpA71YiRDD_fLGT" version="24.4.4" type="device">
+  <diagram name="Page-1" id="_Ek2vvv1BTnBcRceXv3L">
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nPLAGLJrjWZ9NN9OjQlr-17" value="Get all users" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="nPLAGLJrjWZ9NN9OjQlr-5" target="nPLAGLJrjWZ9NN9OjQlr-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nPLAGLJrjWZ9NN9OjQlr-15" value="A user clicks trigger button" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nPLAGLJrjWZ9NN9OjQlr-1" target="nPLAGLJrjWZ9NN9OjQlr-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="323.70000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nPLAGLJrjWZ9NN9OjQlr-1" value="Trigger site" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.web;" vertex="1" parent="1">
+          <mxGeometry x="90" y="300" width="60" height="47.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="nPLAGLJrjWZ9NN9OjQlr-20" value="Remove user(s)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nPLAGLJrjWZ9NN9OjQlr-3" target="nPLAGLJrjWZ9NN9OjQlr-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nPLAGLJrjWZ9NN9OjQlr-3" value="Function to scan&amp;nbsp;&lt;div&gt;valid users&lt;/div&gt;" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.mscae.enterprise.udf_function;fillColor=#0078D7;" vertex="1" parent="1">
+          <mxGeometry x="351" y="510" width="47" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nPLAGLJrjWZ9NN9OjQlr-21" value="Add user(s)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nPLAGLJrjWZ9NN9OjQlr-4" target="nPLAGLJrjWZ9NN9OjQlr-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nPLAGLJrjWZ9NN9OjQlr-4" value="Filtering based on&amp;nbsp;&lt;div&gt;set criteria&lt;/div&gt;" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.filter" vertex="1" parent="1">
+          <mxGeometry x="620" y="301.2" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="nPLAGLJrjWZ9NN9OjQlr-6" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;User group&lt;/span&gt;&#xa;&#xa;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.users.users;fillColor=#2072B8;" vertex="1" parent="1">
+          <mxGeometry x="890" y="298.7" width="46" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nPLAGLJrjWZ9NN9OjQlr-7" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;User group&lt;/span&gt;&#xa;&#xa;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.users.users;fillColor=#2072B8;" vertex="1" parent="1">
+          <mxGeometry x="890" y="510" width="46" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nPLAGLJrjWZ9NN9OjQlr-8" value="Email" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.email;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="884.5" y="93.38" width="57" height="43.25" as="geometry" />
+        </mxCell>
+        <mxCell id="nPLAGLJrjWZ9NN9OjQlr-9" value="ClientSecrets for authentication&amp;nbsp;&lt;div&gt;(APIs, platform)&lt;/div&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.access_control;" vertex="1" parent="1">
+          <mxGeometry x="95" y="510" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nPLAGLJrjWZ9NN9OjQlr-18" value="Scan every week" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nPLAGLJrjWZ9NN9OjQlr-2" target="nPLAGLJrjWZ9NN9OjQlr-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nPLAGLJrjWZ9NN9OjQlr-19" value="Compare the lists" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.08;entryY=0.507;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nPLAGLJrjWZ9NN9OjQlr-2" target="nPLAGLJrjWZ9NN9OjQlr-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nPLAGLJrjWZ9NN9OjQlr-22" value="Send a welcome email" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1.54;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nPLAGLJrjWZ9NN9OjQlr-6" target="nPLAGLJrjWZ9NN9OjQlr-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nPLAGLJrjWZ9NN9OjQlr-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.755;exitY=0.3;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="nPLAGLJrjWZ9NN9OjQlr-9" target="nPLAGLJrjWZ9NN9OjQlr-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nPLAGLJrjWZ9NN9OjQlr-28" value="Logs" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nPLAGLJrjWZ9NN9OjQlr-2" target="nPLAGLJrjWZ9NN9OjQlr-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nPLAGLJrjWZ9NN9OjQlr-2" value="Function App" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;" vertex="1" parent="1">
+          <mxGeometry x="340" y="294" width="68" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nPLAGLJrjWZ9NN9OjQlr-27" value="App Insights" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/devops/Application_Insights.svg;" vertex="1" parent="1">
+          <mxGeometry x="623" y="84" width="44" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="nPLAGLJrjWZ9NN9OjQlr-5" value="User group" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.users.users;fillColor=#2072B8;" vertex="1" parent="1">
+          <mxGeometry x="351" y="90" width="46" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
