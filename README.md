@@ -35,7 +35,7 @@ The application consists of two main components:
    - Scans the group to ensure all members still meet the criteria.
    - Creates a request in ServiceNow to remove users who no longer qualify, pending approval from the group owner.
 
-![Architecture Diagram](docs\architecturediagram.png)
+![Architecture Diagram](./docs/architecturediagram.png)
 
 ## Features
 
